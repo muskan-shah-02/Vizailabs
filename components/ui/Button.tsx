@@ -33,12 +33,12 @@ export function Button({
   };
 
   const variants: Record<string, string> = {
-    primary: "btn-shimmer text-white focus:ring-[#4F6EF7] shadow-lg",
+    primary: "btn-shimmer text-white focus:ring-accent shadow-lg",
     ghost:
-      "bg-transparent text-[#F1F5F9] border border-[#F1F5F9]/30 hover:bg-white/10 hover:border-white/60 focus:ring-white",
+      "bg-transparent text-text-inverse border border-text-inverse/30 hover:bg-white/10 hover:border-white/60 focus:ring-white",
     outline:
-      "bg-transparent text-[#4F6EF7] border border-[#4F6EF7] hover:bg-[#4F6EF7] hover:text-white focus:ring-[#4F6EF7]",
-    white: "bg-white text-[#1E3A5F] hover:bg-[#F8FAFC] focus:ring-white shadow-md",
+      "bg-transparent text-accent border border-accent hover:bg-accent hover:text-white focus:ring-accent",
+    white: "bg-white text-primary hover:bg-bg-light focus:ring-white shadow-md",
     "white-ghost":
       "bg-transparent text-white border border-white/60 hover:bg-white/10 focus:ring-white",
   };
